@@ -1,6 +1,8 @@
 require 'rspec'
 require 'money'
 
+I18n.enforce_available_locales = false
+
 RSpec.configure do |c|
   c.order = "rand"
 end
